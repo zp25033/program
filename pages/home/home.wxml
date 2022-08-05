@@ -1,0 +1,52 @@
+<!--pages/home/home.wxml-->
+<view class="viw">
+  <!-- 头部导航栏 -->
+  <view class="header">
+    <view class="header-span">
+      <span>上海</span>
+    </view>
+    <view class="header-input">
+      <input placeholder="请输入查找内容"></input>
+    </view>
+    <view class="header-image">
+      <image src="../../image/sayi.png"></image>
+    </view>
+  </view>
+  <!-- 轮播图 -->
+  <swiper
+    indicator-dots="{{indicatorDots}}"
+    indicator-active-color="{{indicatorActiveColor}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+  >
+    <swiper-item wx:for="{{imgarr}}" wx:key="*this">
+      <image src="{{item}}" mode="widthFix" show-menu-by-longpress="true"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 导航页 -->
+  <view class="main-contain">
+    <view class="header-main" wx:for="{{cardArr}}" wx:key="*this">
+      <image src="{{item.src}}" style="width:100rpx; height:100rpx"></image>
+      <span>{{item.text}}</span>
+    </view> 
+  </view>
+  <!-- 图片 -->
+  <view class="cuper">
+   <image src="../../image/cuper.png"></image>
+  </view>
+  <!-- 身体 -->
+  <view class="quality">
+    <!-- 一楼 -->
+    <view class="first">
+      <view class="first-text">精品专区</view>
+      <image src="../../image/more1.png" style="width: 70rpx; height: 70rpx;"></image>
+    </view>
+    <!-- 商品框 -->
+    <view class="second">
+      <view class="second-box" wx:for="{{articleArr}}" wx:key="*this">
+        <image src="{{item}}" mode="widthFix" ></image>
+      </view>
+    </view>
+  </view>
+</view>

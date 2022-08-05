@@ -1,0 +1,67 @@
+.new-title {
+  position: relative;
+}
+.new-title span {
+  position: absolute;
+  top: -240rpx;
+  left: 320rpx;
+  color: white;
+}
+.car {  
+  position: absolute;
+  width: 90%;
+  height: 1000rpx;
+  margin-left: 35rpx;
+  top: 240rpx;
+  background-color: white;
+}
+.nev-contain {
+  width: 100%;
+  height: 400rpx;
+}
+.nev-contain span {
+  margin-left: 25rpx;
+  font-size: large;
+  display: block;
+  margin-top: 25rpx;
+}
+.nev-cell {
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+  display: flex;
+}
+.nev-cell-right {
+  width: 65%;
+  margin-left: 25rpx;
+}
+.last-cell {
+  display: flex;
+}
+.price {
+  margin-top: 15rpx;
+}
+.car-top {
+  display: flex;
+}
+.car-body {
+  display: flex;
+}
+/* checkbox */
+checkbox .wx-checkbox-input {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  border-radius: 50%;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  border-color: #FF9A00;
+  background-color: #FF9A00;
+}
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  color: #fff;
+  text-align: center;
+  transform: scale(0.8);
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}

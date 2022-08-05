@@ -1,0 +1,63 @@
+/* pages/kefu/kefu.wxss */
+.ke-body {
+    position: relative;
+}
+
+.body-card {
+    width: 90%;
+    height: 400rpx;
+    position: absolute;
+    background-color: white;
+    margin-left: 40rpx;
+    top: 230rpx;
+    border-radius: 15rpx;
+}
+
+.vatar {
+    height: 150rpx;
+    display: flex;
+}
+
+.vatar image {
+    border-radius: 50%;
+    margin: 30rpx 0 20rpx 30rpx;
+}
+
+.title {
+    margin-left: 15rpx;
+    margin-top: 35rpx;
+}
+.title span {
+    font-size: large;
+}
+.vatar-image image {
+    margin-top: 48rpx;
+}
+.Time {
+    margin-top: 15rpx;
+    margin-left: 7rpx;
+}
+.vatar-button {
+    height: 50rpx;
+}
+.vatar-button button{
+    line-height: 50rpx;
+    margin: 55rpx 0 0 200rpx;
+    border: 1px solid #FF1493;
+    border-radius: 45rpx;
+    color: #FF1493 ;
+}
+.contain {
+    margin-left: 30rpx;  
+}
+.swipee {
+    width: 90%;
+    margin-left: 32rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+    display: flex;
+}
+.swipee image {
+    margin-right: 5rpx;
+    border-radius: 5rpx;
+}

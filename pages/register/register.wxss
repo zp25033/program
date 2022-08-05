@@ -1,0 +1,25 @@
+/* pages/register/register.wxss */
+.base-padding {
+  box-sizing: border-box;
+	padding: 0rpx 40rpx;
+	margin-top: 50rpx;
+}
+.text-ge{
+	margin-left: 10rpx;
+	margin-bottom: 30rpx;
+}
+.form-body{margin-bottom: 30rpx;}
+
+.form-body .row{
+  border-bottom: 1rpx solid #efefef;
+  color: #353535;height: 100rpx;line-height: 100rpx;
+}
+.form-body .row input{
+  margin-top: 24rpx;
+}
+.btn-block{
+	width: 100%;border-radius: 6rpx;color: #fff;margin-bottom: 30rpx;
+}
+.btn-submit{
+background-color: #00acff;border-color: #00acff;
+}

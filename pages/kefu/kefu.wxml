@@ -1,0 +1,24 @@
+<view>
+  <!-- 顶部图片 -->
+  <view class="ke-body">
+    <image src="../../image/scbg.png" style="opacity:{{0.9}}; width: 100%; height: 400rpx;"></image>
+  </view>
+  <view class="body-card">
+    <view class="vatar">
+      <image src="../../image/actar1.png" style="width: 100rpx; height: 100rpx;"></image>
+      <view class="title">
+        <span>小库zizizi</span>
+        <view class="Time">18分钟前</view>
+      </view>      
+      <view class="vatar-image"><image src="../../image/man.png" style="width: 20rpx; height: 20rpx;"></image></view>
+      <view class="vatar-button">
+        <button>关注</button>
+      </view>
+    </view>
+    <view class="contain">我的美食过程,喜欢请分享和点赞奥!</view>
+    <view class="swipee" wx:for="{{friutArr}}" wx:key="*this">
+      <image src="{{item}}" style="width: 24%;" mode="widthFix"></image>
+    </view>
+    <view></view>
+  </view>
+</view>

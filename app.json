@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home1/home1",
+    "pages/menu/menu",
+    "pages/new/new",
+    "pages/kefu/kefu",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "咖啡馆",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/tabbar/home.png",
+        "selectedIconPath": "image/tabbar/home_HL.png"
+      },
+      {
+        "pagePath": "pages/kefu/kefu",
+        "text": "趣玩",
+        "iconPath": "image/tabbar/live.png",
+        "selectedIconPath": "image/tabbar/live_HL.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "菜单",
+        "iconPath": "image/tabbar/category.png",
+        "selectedIconPath": "image/tabbar/category_HL.png"
+      },
+      {
+        "pagePath": "pages/new/new",
+        "text": "购物车",
+        "iconPath": "image/tabbar/hero.png",
+        "selectedIconPath": "image/tabbar/hero_HL.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "image/tabbar/user.png",
+        "selectedIconPath": "image/tabbar/user_HL.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

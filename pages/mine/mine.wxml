@@ -1,0 +1,47 @@
+<scroll-view scroll-y class="scrollPage">
+  <!-- 头部 -->
+  <view class="mine-header">
+    <image src="../../image/tushu.jpg" class="mine-img" bindtap="uploads"/>
+    <view class="header-text" bindtap="uploads">游客,请戳我登录</view>
+  </view>
+  <!-- 身体 -->
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+    <view class="cu-item arrow">
+      <view class="content" >
+        <text class="cuIcon-list text-xsblue"></text>
+        <text class="text-grey">我的记录</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <view class="content">
+        <text class="cuIcon-selectionfill text-xsblue"></text>
+        <text class="text-grey">我的成就</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <view class="content"  data-link="https://gitee.com/xshuai">
+        <text class="cuIcon-github text-grey"></text>
+        <text class="text-grey">Gitee</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <view class="content" >
+        <text class="cuIcon-appreciatefill text-red"></text>
+        <text class="text-grey">赞赏支持</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <button class="cu-btn content" open-type="contact" session-from="weapp">
+        <text class="cuIcon-writefill text-cyan"></text>
+        <text class="text-grey">联系客服</text>
+      </button>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/about" hover-class="none">
+        <text class="cuIcon-creativefill text-orange"></text>
+        <text class="text-grey">关于我们</text>
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+

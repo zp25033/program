@@ -1,0 +1,45 @@
+<view>
+  <!--顶部图片  -->
+  <view class="new-header">
+    <image src="../../image/db.png" style="height: 300rpx; width: 100%; opacity:{{0.9}};" />
+  </view>
+  <view class="new-title"><span>购物车</span></view>
+  <!-- 购物车大框 -->
+  <view class="car">
+    <view class="car-contain" >
+      <checkbox-group>
+        <view class="nev-contain">
+          <view class="car-top">
+            <checkbox checked="{{item.checked}}"/>
+            <span>千库网蛋糕旗舰店</span>
+          </view>
+          <view class="car-body">
+            <checkbox checked="{{item.checked}}"/>
+            <view class="nev-cell">
+              <image src="../../image/ms.png" style="width: 150rpx; height: 160rpx;"></image>
+              <view class="nev-cell-right">
+                <view class="nev-cell-title">千库网草莓蛋糕千库网草莓蛋糕千库网草莓蛋糕</view>
+                <view style="font-size: small;">3磅草莓蛋糕</view>
+                <view class="last-cell">
+                  <view class="price">¥ 30</view>
+                  <view></view>
+                </view>
+              </view>
+            </view>
+          </view>  
+        </view>
+      </checkbox-group>
+    </view>
+  </view>
+  <!-- 计算框 -->
+  <view>
+    <!-- <view class="shop-footer">
+        <view class="selectall" bindtap="selectAll">
+          <image src="{{isSelectAll?'../../assets/images/icons/checkall.png':'../../assets/images/icons/check.png'}}" class="check"></image>全选
+        </view>
+
+        <view class="allPrice">￥{{tatalPrice}}</view>
+        <view class="footer-btn" bindtap="Settlement">结算</view>
+    </view> -->
+  </view>
+</view>

@@ -1,0 +1,41 @@
+<!--pages/register/register.wxml-->
+<view class='base-padding'>
+	<form bindsubmit='formSubmit'>
+		<view class='form-body'>
+			<view class='row'>
+				<view class='col-3'>邮箱</view>
+				<view class='col-9'>
+					<input bindinput='input' name="email" placeholder="请输入邮箱地址" />
+				</view>
+			</view>
+			<view class='row'>
+				<view class='col-3'>用户名</view>
+				<view class='col-9'>
+					<input bindinput='input' name="username" placeholder="由字母和数字组成" />
+				</view>
+			</view>
+			<view class='row'>
+				<view class='col-3'>用户昵称</view>
+				<view class='col-9'>
+					<input bindinput='input' name="nickname" placeholder="请输入昵称" />
+				</view>
+			</view>
+			<view class='row'>
+				<view class='col-3'>登录密码</view>
+				<view class='col-9'>
+					<input password bindinput='input' name="password" placeholder="请输入密码，至少6位" />
+				</view>
+			</view>
+			<view class='row'>
+				<view class='col-3'>确认密码</view>
+				<view class='col-9'>
+					<input password bindinput='input' name="re_password" placeholder="请再次输入密码，至少6位" />
+				</view>
+			</view>
+		</view>
+		<view class="text-ge">以上项全部为必填项,请认真填写</view>
+    <view class='row'>
+      <button class='btn-submit btn-block' loading='{{loading}}' form-type='submit'> 立即注册 </button>
+    </view>
+	</form>
+</view>
